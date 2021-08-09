@@ -87,7 +87,7 @@ const CardsCarousel = () => {
             key={index}
             onDoubleClick={() => {
               window.open(
-                `https://www.youtube.com/results?search_query=${card.title}`
+                `https://www.youtube.com/results?search_query=${card.title} language`
               );
             }}
           >
